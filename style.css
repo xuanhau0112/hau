@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+*{box-sizing: border-box}
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";font-size: 16px;color: #666666;margin: 0
+}
+.container{
+	width: 80%;margin: 0 auto
+}
+.img-100{
+	width: 100%;height: auto
+}
+.header{
+	width: 100%;height: 60px;background-color: #FFC15C;line-height: 60px
+}
+.banner{
+	width: 100%;min-height: 400px;background-color: #FFC15C
+}
+.d-flex{
+	display: flex
+}
+.justify-between{
+	justify-content: space-between
+}
+.menu a{
+	text-decoration: none;color: white;padding: 10px 20px;font-size: 17px;font-weight: 700;
+}
+.menu a:hover{
+	color: #1A86AA
+}
+.w-30{
+	width: 30%;min-height: 200px;padding: 15px
+}
+.w-70{
+	width: 70%;min-height: 200px;padding: 15px
+}
+.text-xanh{
+	color: red
+}
+.vien{
+	border: 1px solid gray;min-height: 200px;border-radius: 8px;padding: 10px;margin-bottom: 15px
+}.form-control{
+	padding: 2px;margin-bottom: 2px
+}
+.gui{
+	padding: 2px 2px; cursor: pointer; margin-right: 10px
+}
+.gui:hover{
+	background-color: #EFF508;color: black
+}
+.nhap{
+	padding: 2px 2px; cursor: pointer
+}
+.nhap:hover{
+	background-color: #EFF508;color: black
+}
